@@ -6,13 +6,13 @@ exports.config = {
     {
       browserName: 'chrome',
       chromeOptions: {
-        binary: 'node_modules/protractor/node_modules/selenium/chromedriver_80.0.3987.106.exe',
+        binary: 'node_modules/protractor/node_modules/webdriver-manager/selenium/chromedriver_80.0.3987.106.exe',
         args: ['--start-maximized', 'disable-infobars']
       }
     }
   ],
 
-  chromeDriver: 'node_modules/protractor/node_modules/selenium/chromedriver_80.0.3987.106',
+  chromeDriver: 'node_modules/protractor/node_modules/webdriver-manager/selenium/chromedriver_80.0.3987.106',
 
   //Add test scripts in this array to execute in parallel
   specs: ['tests/spec.js']

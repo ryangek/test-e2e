@@ -8,6 +8,8 @@ exports.config = {
     }
   ],
 
+  chromeDriver: '$JENKINS_HOME/tools/chromedriver/chromedrive.exe',
+
   //Add test scripts in this array to execute in parallel
   specs: ['tests/spec.js']
 };

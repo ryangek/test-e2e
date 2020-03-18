@@ -1,6 +1,4 @@
 exports.config = {
-  seleniumAddress: 'http://localhost:4445/wd/hub',
-
   // add more browsers to this array for more parallel tests!!
   multiCapabilities: [
     {

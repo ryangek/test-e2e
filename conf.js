@@ -6,7 +6,7 @@ exports.config = {
   multiCapabilities: [
     {
       browserName: 'chrome',
-      seleniumAddress: 'http://10.105.178.758:5555/wd/hub'
+      seleniumAddress: 'http://133b0901b280:4445/wd/hub'
     }
   ],
 

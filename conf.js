@@ -4,11 +4,12 @@ exports.config = {
   // add more browsers to this array for more parallel tests!!
   multiCapabilities: [
     {
-      browserName: 'chrome'
+      browserName: 'chrome',
+      chromeOptions: {
+        args: ['--start-maximized', 'disable-infobars']
+      }
     }
   ],
-
-  chromeDriver: '$JENKINS_HOME/tools/chromedriver/chromedrive.exe',
 
   //Add test scripts in this array to execute in parallel
   specs: ['tests/spec.js']

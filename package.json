@@ -7,7 +7,6 @@
     "test": "tests"
   },
   "scripts": {
-    "pretest": "webdriver-manager update --proxy http://apac.nics.nxp.com:8080",
     "test": "protractor conf.js"
   },
   "author": "",

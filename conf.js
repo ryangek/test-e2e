@@ -4,9 +4,8 @@ exports.config = {
   // add more browsers to this array for more parallel tests!!
   multiCapabilities: [
     {
-      browserName: 'firefox',
-      platform: 'WIN10',
-      version: '62.0'
+      browserName: 'chrome',
+      version: '40.0.2214.411'
     }
   ],
 
